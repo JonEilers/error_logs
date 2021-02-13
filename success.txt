@@ -1,0 +1,130 @@
+./interproscan.sh \
+> -cpu 75 \
+> --disable-precalc \
+> -d /home/jon/Working_Files/interproscan/platanus-allee_illumina_step10.renamed.masked_repeatmodeler-fam/w_pcalifornicus_rnaseq_and_orthodb \
+> -f TSV,XML,JSON,GFF3 \
+> -goterms \
+> -i /home/jon/Working_Files/braker2/platanus-allee_illumina_step10.renamed.masked_repeatmodeler-fam/w_pcalifornicus_rnaseq_and_orthodb/braker/augustus.hints.without_asterisk.aa \
+> -iprlookup \
+> --tempdir /home/jon/Working_Files/interproscan/temp_dir 
+12/02/2021 19:37:32:033 Welcome to InterProScan-5.50RC1-83.0
+12/02/2021 19:37:32:038 Running InterProScan v5 in STANDALONE mode... on Linux
+12/02/2021 19:37:40:084 RunID: jon-PowerEdge-R910_20210212_193739902_3uwg
+12/02/2021 19:38:34:901 Loading file /home/jon/Working_Files/braker2/platanus-allee_illumina_step10.renamed.masked_repeatmodeler-fam/w_pcalifornicus_rnaseq_and_orthodb/braker/augustus.hints.without_asterisk.aa
+12/02/2021 19:38:34:904 Running the following analyses:
+[CDD-3.18,Coils-2.2.1,Gene3D-4.2.0,Hamap-2020_05,MobiDBLite-2.0,PANTHER-15.0,Pfam-33.1,PIRSF-3.10,PRINTS-42.0,ProSitePatterns-2019_11,ProSiteProfiles-2019_11,SFLD-4,SMART-7.1,SUPERFAMILY-1.75,TIGRFAM-15.0]
+Pre-calculated match lookup service DISABLED.  Please wait for match calculations to complete...
+12/02/2021 19:38:57:855 Uploaded 52151 unique sequences for analysis
+12/02/2021 22:11:04:188 25% completed
+12/02/2021 22:58:54:959 50% completed
+12/02/2021 23:53:37:792 75% completed
+13/02/2021 00:16:40:480 90% completed
+13/02/2021 00:24:41:955 Info: [52001_52151] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:24:41:959 Info: [52001_52151] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:34:39:112 Info: [51001_52000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:34:39:114 Info: [51001_52000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:34:44:473 Info: [11001_12000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:34:44:474 Info: [11001_12000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:07:125 Info: [35001_36000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:07:126 Info: [35001_36000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:07:963 Info: [50001_51000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:07:964 Info: [50001_51000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:14:675 Info: [46001_47000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:14:675 Info: [46001_47000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:19:586 Info: [2001_3000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:19:586 Info: [2001_3000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:20:802 Info: [48001_49000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:20:802 Info: [48001_49000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:21:639 Info: [39001_40000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:21:639 Info: [39001_40000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:21:639 Info: [15001_16000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:21:639 Info: [15001_16000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:28:741 Info: [13001_14000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:28:742 Info: [13001_14000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:29:645 Info: [1_1000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:29:645 Info: [1_1000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:37:387 Info: [37001_38000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:37:387 Info: [37001_38000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:37:528 Info: [21001_22000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:37:528 Info: [21001_22000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:37:529 Info: [4001_5000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:37:529 Info: [4001_5000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:37:869 Info: [8001_9000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:37:870 Info: [8001_9000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:38:360 Info: [24001_25000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:38:360 Info: [24001_25000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:43:896 Info: [26001_27000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:43:896 Info: [26001_27000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:44:212 Info: [32001_33000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:44:213 Info: [32001_33000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:44:333 Info: [41001_42000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:44:333 Info: [41001_42000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:44:725 Info: [1001_2000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:44:725 Info: [1001_2000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:44:738 Info: [36001_37000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:44:738 Info: [36001_37000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:49:224 Info: [30001_31000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:49:224 Info: [30001_31000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:49:468 Info: [5001_6000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:49:469 Info: [5001_6000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:49:638 Info: [34001_35000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:49:640 Info: [34001_35000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:49:854 Info: [42001_43000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:49:854 Info: [42001_43000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:50:147 Info: [28001_29000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:50:147 Info: [28001_29000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:50:300 Info: [6001_7000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:50:300 Info: [6001_7000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:50:423 Info: [17001_18000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:50:423 Info: [17001_18000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:50:423 Info: [44001_45000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:50:423 Info: [44001_45000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:50:435 Info: [43001_44000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:50:435 Info: [43001_44000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:50:678 Info: [25001_26000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:50:678 Info: [25001_26000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:50:688 Info: [3001_4000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:50:688 Info: [3001_4000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:50:711 Info: [7001_8000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:50:711 Info: [7001_8000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:53:894 Info: [31001_32000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:53:894 Info: [31001_32000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:53:913 Info: [19001_20000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:53:913 Info: [19001_20000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:53:934 Info: [45001_46000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:53:935 Info: [45001_46000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:54:281 Info: [38001_39000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:54:281 Info: [38001_39000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:54:398 Info: [9001_10000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:54:398 Info: [12001_13000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:54:398 Info: [9001_10000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:54:398 Info: [12001_13000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:54:425 Info: [33001_34000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:54:425 Info: [33001_34000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:54:506 Info: [49001_50000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:54:507 Info: [49001_50000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:54:509 Info: [40001_41000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:54:509 Info: [40001_41000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:54:779 Info: [16001_17000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:54:779 Info: [16001_17000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:54:820 Info: [14001_15000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:54:820 Info: [14001_15000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:54:925 Info: [20001_21000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:54:925 Info: [20001_21000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:55:025 Info: [27001_28000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:55:025 Info: [27001_28000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:55:046 Info: [29001_30000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:55:047 Info: [29001_30000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:55:048 Info: [47001_48000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:55:048 Info: [47001_48000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:55:053 Info: [18001_19000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:55:053 Info: [18001_19000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:55:336 Info: [23001_24000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:55:336 Info: [23001_24000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:55:780 Info: [10001_11000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:55:780 Info: [10001_11000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:56:633 Info: [22001_23000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 00:35:56:633 Info: [22001_23000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+13/02/2021 01:06:25:399 100% done:  InterProScan analyses completed 
+
+2021-02-13 01:06:25,911 [main] [uk.ac.ebi.interpro.scan.jms.main.Run:1822] WARN - deleteWorkingDirectoryOnCompletion : false

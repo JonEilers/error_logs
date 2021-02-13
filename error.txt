@@ -1,0 +1,181 @@
+./interproscan.sh \
+> -cpu 75 \
+> --disable-precalc \
+> -d /home/jon/Working_Files/interproscan/platanus-allee_illumina_step10.renamed.masked_repeatmodeler-fam/w_pcalifornicus_rnaseq_and_orthodb \
+> -f TSV,XML,JSON,GFF3 \
+> -goterms \
+> -i /home/jon/Working_Files/braker2/platanus-allee_illumina_step10.renamed.masked_repeatmodeler-fam/w_pcalifornicus_rnaseq_and_orthodb/braker/augustus.hints.without_asterisk.aa \
+> -iprlookup \
+> --tempdir /home/jon/Working_Files/interproscan/temp_dir 
+11/02/2021 22:56:30:765 Welcome to InterProScan-5.50RC1-83.0
+11/02/2021 22:56:30:775 Running InterProScan v5 in STANDALONE mode... on Linux
+11/02/2021 22:56:44:342 RunID: jon-PowerEdge-R910_20210211_225643965_cauk
+11/02/2021 22:57:38:227 Loading file /home/jon/Working_Files/braker2/platanus-allee_illumina_step10.renamed.masked_repeatmodeler-fam/w_pcalifornicus_rnaseq_and_orthodb/braker/augustus.hints.without_asterisk.aa
+11/02/2021 22:57:38:231 Running the following analyses:
+[CDD-3.18,Coils-2.2.1,Gene3D-4.2.0,Hamap-2020_05,MobiDBLite-2.0,PANTHER-15.0,Pfam-33.1,PIRSF-3.10,PRINTS-42.0,ProSitePatterns-2019_11,ProSiteProfiles-2019_11,SFLD-4,SMART-7.1,SUPERFAMILY-1.75,TIGRFAM-15.0]
+Pre-calculated match lookup service DISABLED.  Please wait for match calculations to complete...
+11/02/2021 22:57:58:539 Uploaded 52151 unique sequences for analysis
+12/02/2021 01:32:55:347 25% completed
+12/02/2021 02:11:57:720 50% completed
+12/02/2021 03:11:58:231 68% completed
+12/02/2021 03:28:50:742 90% completed
+12/02/2021 03:50:14:959 Info: [52001_52151] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 03:50:14:961 Info: [52001_52151] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:01:15:591 Info: [39001_40000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:01:15:595 Info: [39001_40000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:01:25:879 Info: [41001_42000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:01:25:880 Info: [41001_42000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:01:30:729 Info: [48001_49000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:01:30:730 Info: [48001_49000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:01:30:747 Info: [50001_51000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:01:30:747 Info: [50001_51000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:01:41:009 Info: [51001_52000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:01:41:010 Info: [51001_52000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:01:41:555 Info: [15001_16000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:01:41:555 Info: [15001_16000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:01:41:562 Info: [30001_31000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:01:41:562 Info: [30001_31000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:01:54:900 Info: [29001_30000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:01:54:900 Info: [29001_30000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:01:56:198 Info: [19001_20000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:01:56:198 Info: [19001_20000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:01:56:200 Info: [2001_3000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:01:56:200 Info: [2001_3000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:00:191 Info: [36001_37000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:00:191 Info: [36001_37000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:00:823 Info: [34001_35000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:00:824 Info: [34001_35000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:00:883 Info: [44001_45000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:00:883 Info: [44001_45000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:04:885 Info: [6001_7000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:04:885 Info: [6001_7000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:05:209 Info: [35001_36000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:05:209 Info: [35001_36000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:05:375 Info: [28001_29000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:05:375 Info: [28001_29000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:05:761 Info: [11001_12000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:05:761 Info: [11001_12000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:10:205 Info: [37001_38000] pcounts  tryCounts:1 maxTryCount:1 maxtotalWaitTime: 200
+12/02/2021 04:02:10:205 Info: [37001_38000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+2021-02-12 04:02:10,392 [amqEmbeddedWorkerJmsContainer-54] [uk.ac.ebi.interpro.scan.jms.worker.LocalJobQueueListener:213] ERROR - Execution thrown when attempting to executeInTransaction the StepExecution.  All database activity rolled back.
+org.springframework.transaction.UnexpectedRollbackException: Transaction silently rolled back because it has been marked as rollback-only
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:755) ~[spring-tx-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:714) ~[spring-tx-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:533) ~[spring-tx-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:304) ~[spring-tx-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98) ~[spring-tx-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at com.sun.proxy.$Proxy141.executeInTransaction(Unknown Source) ~[?:?]
+	at uk.ac.ebi.interpro.scan.jms.worker.LocalJobQueueListener.onMessage(LocalJobQueueListener.java:197) [interproscan-5.jar:?]
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:761) [spring-jms-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:699) [spring-jms-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:674) [spring-jms-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:318) [spring-jms-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:257) [spring-jms-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1189) [spring-jms-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1179) [spring-jms-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1076) [spring-jms-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2021-02-12 04:02:10,421 [amqEmbeddedWorkerJmsContainer-54] [uk.ac.ebi.interpro.scan.jms.worker.LocalJobQueueListener:215] ERROR - The exception is :
+org.springframework.transaction.UnexpectedRollbackException: Transaction silently rolled back because it has been marked as rollback-only
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:755)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:714)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:533)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:304)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy141.executeInTransaction(Unknown Source)
+	at uk.ac.ebi.interpro.scan.jms.worker.LocalJobQueueListener.onMessage(LocalJobQueueListener.java:197)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:761)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:699)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:674)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:318)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:257)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1189)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1179)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1076)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-02-12 04:02:10,425 [amqEmbeddedWorkerJmsContainer-54] [uk.ac.ebi.interpro.scan.jms.worker.LocalJobQueueListener:218] ERROR - 2. The exception is :org.springframework.transaction.UnexpectedRollbackException: Transaction silently rolled back because it has been marked as rollback-only
+2021-02-12 04:02:10,426 [amqEmbeddedWorkerJmsContainer-54] [uk.ac.ebi.interpro.scan.jms.worker.LocalJobQueueListener:219] ERROR - StepExecution with errors - stepName: stepPrepareForOutput
+12/02/2021 04:02:10:438 Info: [26001_27000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:10:438 Info: [26001_27000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:10:439 Info: [4001_5000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:10:439 Info: [4001_5000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:10:595 Info: [46001_47000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:10:595 Info: [46001_47000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:15:489 Info: [38001_39000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:15:489 Info: [38001_39000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:15:784 Info: [31001_32000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:15:784 Info: [31001_32000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:15:791 Info: [49001_50000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:15:791 Info: [49001_50000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:16:218 Info: [33001_34000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:16:219 Info: [33001_34000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:16:387 Info: [9001_10000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:16:388 Info: [9001_10000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:16:469 Info: [45001_46000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:16:470 Info: [45001_46000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:16:882 Info: [27001_28000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:16:883 Info: [27001_28000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:16:888 Info: [17001_18000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:16:888 Info: [17001_18000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:17:035 Info: [12001_13000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:17:035 Info: [12001_13000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:17:194 Info: [5001_6000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:17:195 Info: [5001_6000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:17:195 Info: [32001_33000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:17:195 Info: [32001_33000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:17:196 Info: [3001_4000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:17:196 Info: [3001_4000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:17:197 Info: [1_1000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:17:197 Info: [1_1000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:17:257 Info: [42001_43000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:17:257 Info: [42001_43000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:22:525 Info: [21001_22000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:22:525 Info: [21001_22000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:22:528 Info: [25001_26000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:22:528 Info: [25001_26000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:22:528 Info: [20001_21000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:22:529 Info: [20001_21000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:22:754 Info: [24001_25000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:22:754 Info: [24001_25000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:22:771 Info: [22001_23000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:22:772 Info: [22001_23000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:22:796 Info: [1001_2000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:22:796 Info: [1001_2000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:22:927 Info: [13001_14000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:22:927 Info: [13001_14000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:22:991 Info: [7001_8000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:22:992 Info: [7001_8000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:22:996 Info: [40001_41000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:22:996 Info: [40001_41000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:23:006 Info: [18001_19000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:23:006 Info: [18001_19000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:23:101 Info: [14001_15000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:23:101 Info: [14001_15000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:23:392 Info: [10001_11000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:23:392 Info: [10001_11000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:23:490 Info: [47001_48000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:23:491 Info: [47001_48000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:23:673 Info: [8001_9000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:23:673 Info: [8001_9000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:24:008 Info: [16001_17000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:24:008 Info: [16001_17000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:24:055 Info: [23001_24000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:24:055 Info: [23001_24000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:24:089 Info: [43001_44000] pcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+12/02/2021 04:02:24:089 Info: [43001_44000] mcounts  tryCounts:0 maxTryCount:0 maxtotalWaitTime: 0
+2021-02-12 04:02:28,051 [main] [uk.ac.ebi.interpro.scan.jms.activemq.NonZeroExitOnUnrecoverableError:25] FATAL - Analysis step 52 : Prepare proteins for output of the completed analysis for proteins 37001 to 38000 has failed irretrievably.  Available StackTraces follow.
+2021-02-12 04:02:28,052 [main] [uk.ac.ebi.interpro.scan.jms.activemq.NonZeroExitOnUnrecoverableError:42] FATAL - The JVM will now exit with a non-zero exit status.
+2021-02-12 04:02:28,052 [main] [uk.ac.ebi.interpro.scan.jms.master.StandaloneBlackBoxMaster:341] ERROR - Exception thrown by StandaloneBlackBoxMaster: 
+java.lang.IllegalStateException: InterProScan exiting with non-zero status, see logs for further information.
+	at uk.ac.ebi.interpro.scan.jms.activemq.NonZeroExitOnUnrecoverableError.failed(NonZeroExitOnUnrecoverableError.java:43) ~[interproscan-5.jar:?]
+	at uk.ac.ebi.interpro.scan.jms.master.StandaloneBlackBoxMaster.run(StandaloneBlackBoxMaster.java:166) [interproscan-5.jar:?]
+	at uk.ac.ebi.interpro.scan.jms.main.Run.main(Run.java:475) [interproscan-5.jar:?]
+java.lang.IllegalStateException: InterProScan exiting with non-zero status, see logs for further information.
+	at uk.ac.ebi.interpro.scan.jms.activemq.NonZeroExitOnUnrecoverableError.failed(NonZeroExitOnUnrecoverableError.java:43)
+	at uk.ac.ebi.interpro.scan.jms.master.StandaloneBlackBoxMaster.run(StandaloneBlackBoxMaster.java:166)
+	at uk.ac.ebi.interpro.scan.jms.main.Run.main(Run.java:475)
+InterProScan analysis failed. Exception thrown by StandaloneBlackBoxMaster. Check the log file for(inte(i(in(interprosca(in(interpro(interproscan) 
